@@ -204,7 +204,7 @@ if (jwtForm) {
     submitToService('request');
   });
 
-  notice.hidden = true;
+  if (notice) notice.hidden = true;
   submit.disabled = false;
   verifyButton.disabled = false;
   resendButton.disabled = false;
